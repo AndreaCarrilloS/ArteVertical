@@ -1,117 +1,160 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-html{font-size: 62.5;}
+html {
+    font-size: 62.5;
+}
 
-.menu{color: white; 
+.menu {
+    color: white;
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
-a{text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-ul{list-style-type: none;}
+ul {
+    list-style-type: none;
+}
 
-h1{text-align: center; 
+h1 {
+    text-align: center;
     color: black;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;}
+    font-size: 22px;
+}
 
-h2{color: #25727C;
+h2 {
+    color: #25727C;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;}
+    font-size: 18px;
+}
 
-p{color: black;
+p {
+    color: black;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;}
+    font-size: 14px;
+}
 
-.head{display:block;
+.head {
+    display: block;
     background-color: black;
-    position: relative;}
+    position: relative;
+}
 
-.logoHead{width: 50px;
-        height: 50px;
-        border: 10px;
-        display: inline-block;}
+.logoHead {
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    display: inline-block;
+}
 
-.headTitulo{color: white;
+.headTitulo {
+    color: white;
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     display: inline-block;
     position: absolute;
-        left: 700px;}
+    left: 700px;
+}
 
-.textFooter{ color:white;
+.textFooter {
+    color: white;
     background-color: #25727C;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     display: block;
     position: absolute;
-        left: 700px;}
-        
-.footer{display: block;
-        background-color: #25727C;
-        position: relative;}
+    left: 700px;
+}
+
+.footer {
+    display: block;
+    background-color: #25727C;
+    position: relative;
+}
 
 
-.fondoimagen{background-image: url("../multimedia/watercolor.jpg");
+.fondoimagen {
+    background-image: url("../multimedia/watercolor.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 800px;
-    position: relative;}
+    position: relative;
+}
 
-.logo{width:200px;
+.logo {
+    width: 200px;
     height: 200px;
     display: inline;
     position: absolute;
     left: 650px;
-        top: 200px}
+    top: 200px
+}
 
-.slogan{color: black;
+.slogan {
+    color: black;
     background: none;
     display: block;
     position: absolute;
-        left: 570px;
-        top: 410px}
+    left: 570px;
+    top: 410px
+}
 
-.botonHome{text-align: center;
-            color: white;
-            background-color: black;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 14px;
-            display: inline-block;
-            padding-top: 3px;
-            padding-bottom: 3px;
-            padding-left: 5px;
-            padding-right: 5px;
-            position: absolute;
-                left: 600px;
-                top: 460px}
-
-.boton1{position: absolute;
+.botonHome {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
     left: 600px;
-    top: 460px}
+    top: 460px
+}
 
-.boton2{position: absolute;
-        left: 680px;
-        top: 460px}
+.boton1 {
+    position: absolute;
+    left: 600px;
+    top: 460px
+}
 
-.boton3{position: absolute;
-            left: 820px;
-            top: 460px}
-    
+.boton2 {
+    position: absolute;
+    left: 680px;
+    top: 460px
+}
 
-.pinturas{width: 500px;
-        height: 500px;}
+.boton3 {
+    position: absolute;
+    left: 820px;
+    top: 460px
+}
 
 
-.resenas{margin-top: 50px;
-        margin-bottom: 150px;}
+.pinturas {
+    width: 500px;
+    height: 500px;
+}
 
 
-
+.resenas {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
