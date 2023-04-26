@@ -14,6 +14,12 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     font-weight: bold;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.textoMenu:hover{
+    color: white
 }
 
 a {
@@ -52,12 +58,32 @@ p {
     position: relative;
 }
 
+
 .logoHead {
     width: 50px;
     height: 50px;
     border: 10px;
     display: inline-block;
 }
+
+@media screen and (max-width: 768px){
+    .logoHead{
+        width: 25px;
+        height: 25px; 
+        border: 5px;
+        margin: 5px;   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .logoHead{
+        width: 20px;
+        height: 20px;
+        margin-top: 8px;
+        margin-left: 8px;
+      }
+}
+
 
 .headTitulo {
     color: white;
@@ -66,7 +92,32 @@ p {
     font-size: 18px;
     display: inline-block;
     position: absolute;
-    left: 700px;
+    left: 715px;
+    top: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .headTitulo{
+        font-size:14px;
+        left: 680px;
+        top: 8px;    
+    }
+}
+
+@media screen and (max-width: 426px){
+    .headTitulo{
+        font-size: 15px;
+        left: 300px;
+        top:9px
+       }
+}
+
+@media screen and (max-width: 321px){
+    .headTitulo{
+        font-size: 15px;
+        left: 260px;
+        top:9px
+       }
 }
 
 .textFooter {
@@ -77,14 +128,41 @@ p {
     display: block;
     position: absolute;
     left: 700px;
+    text-align: center;
+    text-decoration:none;
+    top: 25px;
 }
+
+@media screen and (max-width: 768px){
+    .textFooter {
+        font-size: 14px;
+        left: 320px;
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .textFooter {
+        font-size: 12px;
+        left: 130px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .textFooter {
+        font-size: 12px;
+        left: 110px;
+        top: 20px;
+    }
+}
+
 
 .footer {
     display: block;
     background-color: #25727C;
     position: relative;
 }
-
 
 .fondoimagen {
     background-image: url("../multimedia/watercolor.jpg");
@@ -104,6 +182,34 @@ p {
     top: 200px
 }
 
+@media screen and (max-width: 768px){
+    .logo{
+        width: 150px;
+        height: 150px;
+        left: 310px; 
+        top: 100px   
+    }
+}
+
+@media screen and (max-width: 426px){
+    .logo{
+        left: 140px; 
+        top: 140px   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .logo{
+        left: 120px; 
+    }
+}
+
+@media screen and (max-width: 321px){
+    .logo{
+        left: 90px; 
+    }
+}
+
 .slogan {
     color: black;
     background: none;
@@ -113,6 +219,29 @@ p {
     top: 410px
 }
 
+@media screen and (max-width: 768px){
+    .slogan{
+        font-size: 18px;
+        left: 235px; 
+        top: 260px   
+    }
+}
+
+@media screen and (max-width: 426px){
+    .slogan{
+        left: 65px; 
+        top: 300px   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .slogan{
+        left: 70px;
+        right: 70px;px; 
+        top: 300px   
+    }
+}
+
 .botonHome {
     text-align: center;
     color: white;
@@ -120,13 +249,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     display: inline-block;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
     position: absolute;
     left: 600px;
     top: 460px
+}
+
+@media screen and (max-width: 768px){
+    .botonHome{
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 50px;
+       
+    }
 }
 
 .boton1 {
@@ -135,11 +277,68 @@ p {
     top: 460px
 }
 
+@media screen and (max-width: 768px){
+    .boton1{
+        left: 245px; 
+        top: 300px   
+    }
+}
+
+@media screen and (max-width: 426px){
+    .boton1{
+        left: 190px; 
+        top: 340px   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .boton1{
+        left: 170px; 
+        top: 360px   
+    }
+}
+
+@media screen and (max-width: 321px){
+    .boton1{
+        left: 140px; 
+        top: 360px   
+    }
+}
+
 .boton2 {
     position: absolute;
     left: 680px;
     top: 460px
 }
+
+@media screen and (max-width: 768px){
+    .boton2{
+        left: 328px; 
+        top: 300px   
+    }
+}
+
+@media screen and (max-width: 426px){
+    .boton2{
+        left: 162px; 
+        top: 380px   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .boton2{
+        left: 141px; 
+        top: 400px   
+    }
+}
+
+@media screen and (max-width: 321px){
+    .boton2{
+        left: 112px; 
+        top: 400px   
+    }
+}
+
 
 .boton3 {
     position: absolute;
@@ -147,16 +346,54 @@ p {
     top: 460px
 }
 
+@media screen and (max-width: 768px){
+    .boton3{
+        left: 470px; 
+        top: 300px      
+    }
+}
+
+@media screen and (max-width: 426px){
+    .boton3{
+        left: 187px; 
+        top: 420px   
+    }
+}
+
+@media screen and (max-width: 376px){
+    .boton3{
+        left: 166px; 
+        top: 440px   
+    }
+}
+
+@media screen and (max-width: 321px){
+    .boton3{
+        left: 137px; 
+        top: 440px   
+    }
+}
+
+
+.headGaleria {
+    display: block;
+    background-color: black;
+    position: relative;
+}
 
 .pinturas {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    margin-bottom: 2px;
+    margin-top: 30px;
 }
 
 
 .resenas {
     margin-top: 50px;
     margin-bottom: 150px;
+    text-align: center;
 }
 
 /* Estructura grid HOME*/
@@ -164,7 +401,7 @@ p {
 .contenedorGeneralHome {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr 1fr 0.3fr;
     grid-template-areas: 
     "header" 
     "body" 
@@ -187,7 +424,7 @@ p {
 
 .contenedorGeneralGaleria { 
     display: grid;
-    grid-template-columns: 0.8fr repeat (3 1fr);
+    grid-template-columns: 0.5fr repeat (3 1fr);
     grid-template-rows: 0.1fr 1fr 0.1fr;
     grid-template-areas:
     "headGaleria headGaleria headGaleria headGaleria"
@@ -214,5 +451,7 @@ p {
 .panelGaleria3 {
     grid-area: panelGaleria3;
 }
+
+/* Responsive */
 
 
